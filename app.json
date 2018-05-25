@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/w-index/w-index",
+    "pages/w-hotel/w-hotel",
+    "pages/w-hotel-details/w-hotel-details",
+    "pages/w-ticket/w-ticket",
+    "pages/w-ticket-details/w-ticket-details",
+    "pages/spot-survey/spot-survey",
+    "pages/hotel-reserve/hotel-reserve",
+    "pages/my/my",
+    "pages/order-list/order-list",
+    "pages/payment/payment",
+    "pages/nav-byself/nav-byself",
+    "pages/nav-byself-details/nav-byself-details",
+    "pages/ticket-reserve/ticket-reserve",
+    "pages/ticket-payment/ticket-payment",
+    "pages/paySuccess/paySuccess",
+    "pages/dynamic/dynamic",
+    "pages/articleDetails/articleDetails",
+    "pages/index-dynamic/index-dynamic",
+    "pages/w-guide/w-guide",
+    "pages/w-circuit/w-circuit",
+    "pages/w-specialty/w-specialty"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fbd455",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#fbd455",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#656565",
+    "selectedColor": "#f13b4c",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/footer/home-no.png",
+        "selectedIconPath": "image/footer/home-active.png",
+        "text": "首页"
+      },
+     
+      {
+        "pagePath": "pages/nav-byself/nav-byself",
+        "iconPath": "image/footer/guid-no.png",
+        "selectedIconPath": "image/footer/guid.png",
+        "text": "自导"
+      },
+      {
+        "pagePath": "pages/dynamic/dynamic",
+        "iconPath": "image/footer/zixun-no.png",
+        "selectedIconPath": "image/footer/zixun.png",
+        "text": "资讯"
+      }
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+<view class="slide">
+  <swiper indicator-dots="true" autoplay="true" interval="4000" duration="1000" circular="true">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150" mode="aspectFill" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<!-- <view class="information">
+  <image src="../../image/home/horn.png"></image>
+  <view>最新资讯：2017年全国高考学子免费游石林！</view>
+  <view style="padding-left:80px;">"阿诗玛带你游石林"新浪微博一直播活动......</view>
+</view> -->
+
+<view class="section">
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item w-item1">
+      <navigator url="/pages/index-dynamic/index-dynamic?id=1" hover-class="navigator-hover">
+        <view class="w-nav">
+          <image class="hotel" src="../../image/home/eat.png" />
+          <text>吃</text>
+        </view>
+      </navigator>
+    </view>
+    <view class="flex-item w-item2">
+      <navigator url="/pages/index-dynamic/index-dynamic?id=2" hover-class="navigator-hover">
+        <view class="w-nav">
+          <image class="hotel" src="../../image/home/live.png" />
+          <text>住</text>
+        </view>
+      </navigator>
+
+    </view>
+    <view class="flex-item w-item3">
+      <navigator url="/pages/index-dynamic/index-dynamic?id=3" hover-class="navigator-hover">
+        <view class="w-nav">
+          <image class="hotel" src="../../image/home/walk.png" style='width:90rpx' />
+          <text>行</text>
+        </view>
+      </navigator>
+
+    </view>
+  </view>
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item w-item4">
+      <navigator url="/pages/index-dynamic/index-dynamic?id=4" hover-class="navigator-hover">
+        <view class="w-nav">
+          <image class="hotel" src="../../image/home/travel.png" />
+          <text>游</text>
+        </view>
+      </navigator>
+    </view>
+    <view class="flex-item w-item5">
+      <navigator url="/pages/index-dynamic/index-dynamic?id=5" hover-class="navigator-hover">
+        <view class="w-nav">
+          <image class="hotel" src="../../image/home/shop.png" />
+          <text>购</text>
+        </view>
+      </navigator>
+
+    </view>
+    <view class="flex-item w-item6">
+      <navigator url="/pages/index-dynamic/index-dynamic?id=6" hover-class="navigator-hover">
+        <view class="w-nav">
+          <image class="hotel" src="../../image/home/game.png" />
+          <text>娱</text>
+        </view>
+      </navigator>
+
+    </view>
+  </view>
+</view>
+
+<view class="line"></view>
+
+<view class="foot">
+  <image  mode ="widthFix" src="{{logo}}"></image>
+  <view class="introduce">
+     <!-- 石林是1982年国务院批准的首批国家级重点风景名胜区之一。是世界上最典型的卡斯特地貌景观，范围达350平方公里，素有“造型地貌天然博物馆之称”... -->
+    <veiw class='profile' style='font-size:12px'>
+      {{profile}}
+    </veiw>
+    <!-- {{list.scProfile}} -->
+    <navigator class='details' url='/pages/spot-survey/spot-survey'>
+      <!-- <image class='icon1' style='padding:2px 5px' src="../../image/home/ico1.png"></image> -->
+    
+     <text class='details-txt' style='font-size:12px;float:left'>了解更多</text>
+      <image class='icon2' style='margin-top:3px;'  src="../../image/home/ico2.png"></image>
+    </navigator>
+  </view>
+
+</view>
